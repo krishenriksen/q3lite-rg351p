@@ -16,22 +16,6 @@
   * rg351p - rk3326
 
 
-### Features
-
-<img src="https://raw.githubusercontent.com/cdev-tux/q3lite/master/misc/q3lite/img/app_menu.jpg" width="430" align="right" style="margin-left:8px;margin-top:5px" alt="App Menu">
-
-  * Built on the latest ioq3 codebase using OpenGL ES.
-  * Set the game resolution independent of your desktop resolution on the Pi.
-  * Play full screen with or without x11 running.
-  * Optimized player and dedicated server config files included with instructions for each setting.
-  * The provided compile script automatically detects the Pi processor type and sets optimized compiler settings.
-  * Includes a robust installer to automatically create game directories, copy game files and download&nbsp;/&nbsp;install updated pak files from the Q3A Point Release. It can also install SDL2 dynamic  libraries so there's no need to compile or preinstall SDL2. The installer creates game, server, rcon and   timedemo launch icons in the applications menu as seen in the image above.  
-  **Note:** You'll still need to copy the pak0.pk3 file from your full version of Quake III Arena to play the game. See section 1.1 of the [Q3lite FAQ](https://github.com/cdev-tux/q3lite/wiki/Q3lite-FAQ) for details.
-  * Uninstaller included for removing installation if desired.
-  * Includes all files and step by step instructions to run a dedicated server from the applications menu or as a systemd service at boot time.
-  * Timedemo four runs at ~150 fps on a Pi 3 B+ at 720P (without overclocking).
-  * Also includes a desktop Remote Console (rcon) application to send console commands to the background server.
-
 ### New Q3lite cvars
 These cvars are in addition to those currently available in the base game. All new features can be turned off to maintain default Quake3 behavior. Set client cvars in your autoexec.cfg file and server cvars in your server.cfg file, both located in ~/.q3a/baseq3.
 
